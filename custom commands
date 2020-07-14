@@ -1,0 +1,6 @@
+bot.on('message', msg=>{
+    if(msg.content ===  "horseface"){
+        msg.reply('What the fuck did you just say?!')
+    }
+
+})
